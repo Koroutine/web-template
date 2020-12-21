@@ -1,0 +1,12 @@
+tasks:
+  - init: yarn
+    command: |
+      export CLIENT_URL="$(gp url 35729)/livereload.js?snipver=1&port=443"
+      gp open src/App.svelte
+      snowpack dev
+ports:
+  - port: 8080
+    onOpen: open-preview
+vscode:
+  extensions:
+    - svelte.svelte-vscode@102.1.0:lalX6WJBrpvP8QKZTiLUmQ==

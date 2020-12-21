@@ -1,0 +1,15 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Koroutine/web-template.git",
+  "author": "Drache93 <drache9335@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.4.1",
+    "@tsconfig/svelte": "^1.0.10",
+    "snowpack": "^3.0.0-rc.2",
+    "svelte": "^3.31.0",
+    "typescript": "^4.1.3"
+  }
+}

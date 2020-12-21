@@ -1,0 +1,43 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v12.20.0/bin/node /home/gitpod/.nvm/versions/node/v12.20.0/bin/yarn add -D // installOptions: {},
+
+PATH: 
+  /home/gitpod/.nvm/versions/node/v12.20.0/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.rvm/gems/ruby-2.6.6/bin:/home/gitpod/.rvm/gems/ruby-2.6.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.6.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v12.20.0/bin:/home/gitpod/.cargo/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.20.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Invalid URL
+      at module.exports.module.exports (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:71821:9)
+      at urlParts (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:31614:75)
+      at NpmRegistry.isRequestToRegistry (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:31657:19)
+      at NpmRegistry.<anonymous> (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:31689:31)
+      at Generator.next (<anonymous>)
+      at step (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at NpmRegistry.<anonymous> (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:307:12)
+
+npm manifest: 
+  {
+    "name": "web-template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Koroutine/web-template.git",
+    "author": "Drache93 <drache9335@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
