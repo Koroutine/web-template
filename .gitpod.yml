@@ -1,9 +1,8 @@
 tasks:
   - init: yarn
     command: |
-      export CLIENT_URL="$(gp url 35729)/livereload.js?snipver=1&port=443"
       gp open src/App.svelte
-      snowpack dev
+      yarn snowpack dev
 ports:
   - port: 8080
     onOpen: open-preview
